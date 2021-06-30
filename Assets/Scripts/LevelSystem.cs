@@ -33,7 +33,6 @@ public class LevelSystem : MonoBehaviour
     {
         _gameLevels = GameLevels.Easy;
         _onChangeLevel.Invoke(_gameLevels);
-        ChangeGameLevel();
     }
     private void MakeCellsInactive()
     {
